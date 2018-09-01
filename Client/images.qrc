@@ -1,0 +1,54 @@
+<RCC>
+    <qresource prefix="/new/headers">
+        <file>images/headers/0.png</file>
+        <file>images/headers/1.png</file>
+        <file>images/headers/2.png</file>
+        <file>images/headers/3.png</file>
+        <file>images/headers/4.png</file>
+        <file>images/headers/5.png</file>
+        <file>images/headers/6.png</file>
+        <file>images/headers/7.png</file>
+        <file>images/headers/8.png</file>
+        <file>images/headers/9.png</file>
+        <file>images/headers/10.png</file>
+        <file>images/headers/11.png</file>
+        <file>images/headers/candel.png</file>
+        <file>images/headers/friend.png</file>
+        <file>images/headers/roomHeader.png</file>
+    </qresource>
+    <qresource prefix="/new/theme">
+        <file>images/theme/bg1.jpg</file>
+        <file>images/theme/bg2.png</file>
+        <file>images/theme/bg3.jpg</file>
+        <file>images/theme/bg4.jpg</file>
+        <file>images/theme/bg5.jpg</file>
+        <file>images/theme/bg6.jpg</file>
+        <file>images/theme/bg7.png</file>
+        <file>images/theme/bg8.png</file>
+        <file>images/theme/logo.png</file>
+        <file>images/theme/name.png</file>
+        <file>images/theme/pharos_gray.png</file>
+        <file>images/theme/pharos_white.png</file>
+        <file>images/theme/Phraos.png</file>
+        <file>images/theme/reglog_titlet.png</file>
+        <file>images/theme/icon512.ico</file>
+    </qresource>
+    <qresource prefix="/new/buttons">
+        <file>images/buttons/addChat.png</file>
+        <file>images/buttons/addFriend.png</file>
+        <file>images/buttons/backward.png</file>
+        <file>images/buttons/chat.png</file>
+        <file>images/buttons/clean.png</file>
+        <file>images/buttons/delete.png</file>
+        <file>images/buttons/delete2.png</file>
+        <file>images/buttons/exit.png</file>
+        <file>images/buttons/forward.png</file>
+        <file>images/buttons/friend.png</file>
+        <file>images/buttons/newInform.png</file>
+        <file>images/buttons/newMessage.png</file>
+        <file>images/buttons/refresh.png</file>
+        <file>images/buttons/search.png</file>
+        <file>images/buttons/send.png</file>
+        <file>images/buttons/setting.png</file>
+    </qresource>
+</RCC>

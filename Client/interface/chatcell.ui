@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>ChatCell</class>
+ <widget class="QWidget" name="ChatCell">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>900</width>
+    <height>700</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true"/>
+  </property>
+  <widget class="QWidget" name="chat_title" native="true">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>900</width>
+     <height>70</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
+   <widget class="QLabel" name="chat_object">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>25</y>
+      <width>500</width>
+      <height>40</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>等线</family>
+      <pointsize>18</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background: rgba(0,0,0,0); color: white;</string>
+    </property>
+    <property name="text">
+     <string>Chris Evans</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QWidget" name="chat_record" native="true">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>70</y>
+     <width>750</width>
+     <height>520</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background: rgba(0,0,0,0.8);</string>
+   </property>
+   <widget class="QTextBrowser" name="recordList">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>20</y>
+      <width>730</width>
+      <height>480</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>等线</family>
+      <pointsize>10</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background: rgba(0,0,0,0); border: 0px;color: white;</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QWidget" name="chat_setting" native="true">
+   <property name="geometry">
+    <rect>
+     <x>750</x>
+     <y>70</y>
+     <width>150</width>
+     <height>630</height>
+    </rect>
+   </property>
+   <widget class="QTextBrowser" name="chat_information">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>20</y>
+      <width>130</width>
+      <height>500</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>等线</family>
+      <pointsize>10</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background: rgba(0,0,0,0); color: white;border: 0px;</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="chat_breakButton">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>530</y>
+      <width>60</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>等线</family>
+      <pointsize>10</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: white; background: rgba(0,0,0,0); border: 1px solid white; border-radius: 5px;</string>
+    </property>
+    <property name="text">
+     <string>离开</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="chat_refreshButton">
+    <property name="geometry">
+     <rect>
+      <x>80</x>
+      <y>570</y>
+      <width>60</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>等线</family>
+      <pointsize>10</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: white; background: rgba(0,0,0,0); border: 1px solid white; border-radius: 5px;</string>
+    </property>
+    <property name="text">
+     <string>重连</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="chat_exitButton">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>570</y>
+      <width>60</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>等线</family>
+      <pointsize>10</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: white; background: rgba(0,0,0,0); border: 1px solid white; border-radius: 5px;</string>
+    </property>
+    <property name="text">
+     <string>退群</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="chat_enterButton">
+    <property name="geometry">
+     <rect>
+      <x>80</x>
+      <y>530</y>
+      <width>60</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>等线</family>
+      <pointsize>10</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: white; background: rgba(0,0,0,0); border: 1px solid white; border-radius: 5px;</string>
+    </property>
+    <property name="text">
+     <string>加入</string>
+    </property>
+   </widget>
+   <zorder>chat_information</zorder>
+   <zorder>chat_refreshButton</zorder>
+   <zorder>chat_exitButton</zorder>
+   <zorder>chat_breakButton</zorder>
+   <zorder>chat_enterButton</zorder>
+  </widget>
+  <widget class="QWidget" name="widget" native="true">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>590</y>
+     <width>750</width>
+     <height>110</height>
+    </rect>
+   </property>
+   <widget class="QTextEdit" name="chat_messageInput">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>10</y>
+      <width>601</width>
+      <height>87</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>等线</family>
+      <pointsize>10</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background: rgba(0,0,0,0.8); border-radius: 5px; color: white;</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="chat_sendButton">
+    <property name="geometry">
+     <rect>
+      <x>630</x>
+      <y>30</y>
+      <width>93</width>
+      <height>50</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="icon">
+     <iconset resource="../images.qrc">
+      <normaloff>:/new/buttons/images/buttons/send.png</normaloff>:/new/buttons/images/buttons/send.png</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>50</width>
+      <height>50</height>
+     </size>
+    </property>
+    <property name="flat">
+     <bool>true</bool>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources>
+  <include location="../images.qrc"/>
+ </resources>
+ <connections/>
+</ui>
